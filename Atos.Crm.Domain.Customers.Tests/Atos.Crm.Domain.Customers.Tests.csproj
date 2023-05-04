@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atos.Crm.Abstractions\Atos.Crm.Abstractions.csproj" />
+    <ProjectReference Include="..\Atos.Crm.Core\Atos.Crm.Core.csproj" />
+    <ProjectReference Include="..\Atos.Crm.Domain.Customers\Atos.Crm.Domain.Customers.csproj" />
+    <ProjectReference Include="..\Atos.Crm.Infrastructure\Atos.Crm.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

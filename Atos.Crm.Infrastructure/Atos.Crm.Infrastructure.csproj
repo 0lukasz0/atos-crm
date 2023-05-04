@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atos.Crm.Abstractions\Atos.Crm.Abstractions.csproj" />
+    <ProjectReference Include="..\Atos.Crm.Core\Atos.Crm.Core.csproj" />
+  </ItemGroup>
+
+</Project>

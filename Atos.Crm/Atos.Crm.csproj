@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atos.Crm.Abstractions\Atos.Crm.Abstractions.csproj" />
+    <ProjectReference Include="..\Atos.Crm.Core\Atos.Crm.Core.csproj" />
+    <ProjectReference Include="..\Atos.Crm.Domain.Customers\Atos.Crm.Domain.Customers.csproj" />
+    <ProjectReference Include="..\Atos.Crm.Infrastructure\Atos.Crm.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
